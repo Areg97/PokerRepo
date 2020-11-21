@@ -10,10 +10,10 @@ function createPlayers(numberOfPlayers)
 {
     for (let i = 0; i < numberOfPlayers; i++)
     {
-        var player = new Player("player"+i);
+        var player = new Player("PLAYER"+i);
         players.push(player);  
         var selector = '#nickname'+ (i + 1) + '> h3';
-        document.querySelector(selector).innerHTML = "player" + i;
+        document.querySelector(selector).innerHTML = "PLAYER" + i;
     }
 }
 
