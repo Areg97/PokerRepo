@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>Poker</title>
+    <link rel="stylesheet" href="Styles.css">
+  </head>
+  <body onload="onLoad()">        
+    <h1>Poker</h1>
+
+    <button onclick="shuffle()">Shuffle</button>
+    <button onclick="deal()">Deal</button>
+    <button onclick="getWinner()">Winner</button>
+
+    <div style="height: 20px; margin-top: 10px;" id="winners"></div>
+
+    <div id="nickname1"><h3></h3></div>
+    <div class="card_container" id="player0">
+      <div id="card1" class="card"></div>
+      <div id="card2" class="card"></div>
+      <div id="card3" class="card"></div>
+      <div id="card4" class="card"></div>
+      <div id="card5" class="card"></div>   
+    </div>
+
+    <div id="nickname2"><h3></h3></div>
+    <div class="card_container" id="player1">
+      <div id="card1" class="card"></div>
+      <div id="card2" class="card"></div>
+      <div id="card3" class="card"></div>
+      <div id="card4" class="card"></div>
+      <div id="card5" class="card"></div>   
+    </div>
+
+    <div id="nickname3"><h3></h3></div>
+    <div class="card_container" id="player2">
+      <div id="card1" class="card"></div>
+      <div id="card2" class="card"></div>
+      <div id="card3" class="card"></div>
+      <div id="card4" class="card"></div>
+      <div id="card5" class="card"></div>    
+    </div>
+    
+
+    <script src="Deck.js"></script>    
+    <script src="Card.js"></script>
+    <script src="Player.js"></script>    
+    <script src="Winner.js"></script>
+    <script src="Poker.js"></script> 
+  </body>
+</html> 
