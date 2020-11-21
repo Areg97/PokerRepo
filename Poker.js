@@ -12,8 +12,8 @@ function createPlayers(numberOfPlayers)
     {
         var player = new Player("player"+i);
         players.push(player);  
-        var selector = '#nickname'+ (i+1) +'> h3';
-        document.querySelector(selector).innerHTML = "player"+i;
+        var selector = '#nickname'+ (i + 1) + '> h3';
+        document.querySelector(selector).innerHTML = "player" + i;
     }
 }
 
